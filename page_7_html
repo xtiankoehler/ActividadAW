@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Play Your Dungeon</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <h1>STEP 2: PLAY YOUR DUNGEON</h1>
+
+  <div class="izquierda">
+    <p>Players simultaneously draw chips from their bags and place them on their dungeon maps. Players start at the top floor, and once it is full, descend to the next floor. If a player fills all the floors on their dungeon map, they add a Dungeon Depths map to go even deeper.</p>
+
+    <h3>Playing Chips</h3>
+    <p>Draw chips one at a time from your Satchel, and place them on your dungeon map in the following manner.</p>
+    <ol>
+      <li>Draw a chip from your Satchel and look at both sides. You choose which side you would like to play face-up.</li>
+      <li>You may <b>only</b> play chips on your <b>current floor.</b></li>
+      <li>You may place a chip on <b>empty spaces</b> or <b>optional feature spaces</b>, but not on <b>obstacles</b> or <b>mandatory</b> feature spaces, or on top of previously played chips.</li>
+    </ol>
+
+    <img src="chips.png" width="230">
+
+    <p>When you draw the <b>last chip in your bag</b>, play it, then immediately <b>stop</b> (before advancing to the next floor.)</p>
+
+    <h3>Descending</h3>
+    <p>Each row of the dungeon is a <b>floor</b>. Use your Hero figure to track your <b>current floor</b>.</p>
+    <p><b>Finishing a Floor:</b> A floor is finished when it has <b>no empty spaces</b> (there is a chip, obstacle, or feature in every space.) When a floor is finished, <b>before you draw your next chip</b>. If you do you must choose to either:</p>
+    <ul>
+      <li><b>Continue:</b> Move your hero figure to the next lower floor, and keep drawing chips. You may only continue if you have <b>at least one chip</b> left in your bag.</li>
+      <li><b>Stop:</b> Leave your hero figure on the current floor, and stop drawing chips. You are finished with this dungeon. <i>It's usually best to play all of your chips, so you'll only want to stop early <b>very rarely</b>.</i></li>
+    </ul>
+  </div>
+
+  <div class="derecha">
+    <h3>Finishing a Map</h3>
+    <p>When you fill the final row of a dungeon map (Entrance or Depths), if you have chips left in your bag, immediately draw a new <b>Dungeon Depths map</b> from the <b>bottom</b> of the stack. Choose a side, and place it below your current map. Then carry out the rest of the "Finishing a Floor" steps.</p>
+    <p>When placing a Dungeon Depths map, you may place it directly below your Dungeon Entrance or <b>shift</b> it one space to the left or right, but once placed you may not change it.</p>
+
+    <h2>END OF THE DUNGEON PHASE</h2>
+    <p>Once all players have placed all of their chips, or stopped, the Dungeon phase is over, and the Resolution phase begins.</p>
+
+    <div class="ejemplo">
+      <h2>DUNGEON PLAY EXAMPLE</h2>
+      <img src="dungeon-example.png" width="100%">
+      <p>Nyx (the Rogue) places their dungeon map and puts their figure next to the first floor. Their dungeon has 3 obstacles (A), 2 optional features (B), and 1 mandatory feature (C).</p>
+      <p>Nyx draws their first chip. It's a Sword/Chest. They must place it in one of the spaces on the first floor, so they place with the Sword side up above the Monster feature (swords hit orthogonally), and adjacent to the Chest feature (which needs an adjacent weapon, coin and potion to unlock).</p>
+      <p class="centrado"><i>Continued on page 9.</i></p>
+    </div>
+  </div>
+
+</body>
+</html>
